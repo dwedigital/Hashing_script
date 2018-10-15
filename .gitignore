@@ -1,3 +1,5 @@
 *.csv
 *.txt
 .vscode/temp.sql
+.vscode/launch.json
+Pipfile
