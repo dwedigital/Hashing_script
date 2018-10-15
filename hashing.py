@@ -3,7 +3,8 @@ import csv
 
 
 def open_file():
-    file_to_read = input('Please provide the filename to be hashed (we assume the file has headers!) >> ')
+    file_to_read = input(
+        'Please provide the filename to be hashed (we assume the file has headers!) >> ')
 
     hash(file_to_read)
 
