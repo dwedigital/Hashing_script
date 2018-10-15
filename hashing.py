@@ -12,7 +12,6 @@ def hash(file_to_read):
     hashes = []
     with open(file_to_read, 'r') as csvfile:
         spamreader = csv.reader(csvfile, delimiter=' ', quotechar='|')
-        next(csvreader)
         for row in spamreader:
             hashes.append(hashlib.sha256(row[0].encode('utf8')).hexdigest())
 
